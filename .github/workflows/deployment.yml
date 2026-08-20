@@ -31,5 +31,5 @@ jobs:
 
       - name: Deploy build to EC2
         run: |
-          rsync -avz dist/ \
+          rsync -avz my-react-app/dist/ \
           ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:${{ secrets.EC2_APP_PATH }}
