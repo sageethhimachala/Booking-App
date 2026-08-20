@@ -13,7 +13,7 @@ function FeaturedProperties() {
         <span className="fpCity">Madrid</span>
         <span className="fpPrice">Starting from $120</span>
         <div className="fpRating">
-          <button>8.9</button>
+          <button>10</button>
           <span>Excellent</span>
         </div>
       </div>
