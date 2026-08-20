@@ -18,7 +18,9 @@ jobs:
           cache: npm
           cache-dependency-path: my-react-app/package-lock.json
 
-      - run: npm ci
+      - run: |
+          cd my-react-app
+          npm ci
       - run: npm run build
 
       - name: Setup SSH
