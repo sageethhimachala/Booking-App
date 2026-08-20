@@ -1,11 +1,11 @@
-import './featuredProperties.css'
+import "./featuredProperties.css";
 
 function FeaturedProperties() {
   return (
-    <div className='fp'>
-        <div className="fpItem">
+    <div className="fp">
+      <div className="fpItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
+          src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           className="fpImg"
         />
@@ -17,9 +17,9 @@ function FeaturedProperties() {
           <span>Excellent</span>
         </div>
       </div>
-        <div className="fpItem">
+      <div className="fpItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
+          src="https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           className="fpImg"
         />
@@ -31,9 +31,9 @@ function FeaturedProperties() {
           <span>Excellent</span>
         </div>
       </div>
-        <div className="fpItem">
+      <div className="fpItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
+          src="https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?q=80&w=1620&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           className="fpImg"
         />
@@ -45,9 +45,9 @@ function FeaturedProperties() {
           <span>Excellent</span>
         </div>
       </div>
-        <div className="fpItem">
+      <div className="fpItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
+          src="https://plus.unsplash.com/premium_photo-1661964402307-02267d1423f5?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           className="fpImg"
         />
@@ -60,7 +60,7 @@ function FeaturedProperties() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default FeaturedProperties
+export default FeaturedProperties;
